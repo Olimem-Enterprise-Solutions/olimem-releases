@@ -19,7 +19,13 @@
       "description": "Rates, water and refuse billing",
       "detail": "Accounts, meter readings and statements",
       "url": "https://billing.example.com",
-      "color": "#26d579"
+      "color": "#26d579",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "billing-v",
+        "asset": "olimem-billing",
+        "appName": "Olimem Billing"
+      }
     },
     {
       "id": "receipting",

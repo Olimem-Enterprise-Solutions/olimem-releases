@@ -8,6 +8,7 @@ Each app's releases are tagged `<app>-v<version>`:
 | App | Tag prefix | Files |
 |---|---|---|
 | Olimem Schools | `schools-v` | `olimem-schools-<version>-macos-universal.dmg`, `olimem-schools-<version>-windows-x64-setup.exe` |
+| Olimem Billing | `billing-v` | `olimem-billing-<version>-macos-universal.dmg`, `olimem-billing-<version>-windows-x64-setup.exe` |
 | Olimem GIS | `gis-v` | `olimem-gis-<version>-macos-universal.dmg`, `olimem-gis-<version>-windows-x64-setup.exe` |
 
 ## App list
