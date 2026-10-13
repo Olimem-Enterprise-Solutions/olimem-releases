@@ -34,7 +34,13 @@
       "description": "Cashier receipting and cash-ups",
       "detail": "Receipts, reversals and daily banking",
       "url": "https://receipting.example.com",
-      "color": "#4c8dff"
+      "color": "#4c8dff",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "receipting-v",
+        "asset": "olimem-receipting",
+        "appName": "Olimem Receipting"
+      }
     },
     {
       "id": "portal",
@@ -44,6 +50,12 @@
       "detail": "Residents view statements and pay online",
       "url": "https://portal.example.com",
       "color": "#9b6bff",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "portal-v",
+        "asset": "olimem-portal",
+        "appName": "Olimem Portal"
+      },
       "android": "https://portal.example.com/download/android"
     },
     {
@@ -53,7 +65,13 @@
       "description": "Budget preparation and monitoring",
       "detail": "Votes, allocations and variance reports",
       "url": "https://budget.example.com",
-      "color": "#f5b82e"
+      "color": "#f5b82e",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "budget-v",
+        "asset": "olimem-budget",
+        "appName": "Olimem Budget"
+      }
     },
     {
       "id": "procurement",
@@ -62,7 +80,13 @@
       "description": "Requisitions to purchase orders",
       "detail": "Quotations, approvals and suppliers",
       "url": "https://procurement.example.com",
-      "color": "#1fb8a6"
+      "color": "#1fb8a6",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "procurement-v",
+        "asset": "olimem-procurement",
+        "appName": "Olimem Procurement"
+      }
     },
     {
       "id": "supply-chain",
@@ -71,7 +95,13 @@
       "description": "Stores, fuel and acquittals",
       "detail": "GRVs, issues and stock on hand",
       "url": "https://stores.example.com",
-      "color": "#ef5b3c"
+      "color": "#ef5b3c",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "stores-v",
+        "asset": "olimem-stores",
+        "appName": "Olimem Stores"
+      }
     },
     {
       "id": "housing",
@@ -80,7 +110,13 @@
       "description": "Housing waiting list and allocations",
       "detail": "Applicants, stands and lease records",
       "url": "https://housing.example.com",
-      "color": "#e94e9b"
+      "color": "#e94e9b",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "housing-v",
+        "asset": "olimem-housing",
+        "appName": "Olimem Housing"
+      }
     },
     {
       "id": "gis",
@@ -104,7 +140,13 @@
       "description": "Bulk SMS to residents",
       "detail": "Bill reminders, notices and campaigns",
       "url": "https://sms.example.com",
-      "color": "#a3d93b"
+      "color": "#a3d93b",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "sms-v",
+        "asset": "olimem-sms",
+        "appName": "Olimem SMS"
+      }
     },
     {
       "id": "school-portal",
