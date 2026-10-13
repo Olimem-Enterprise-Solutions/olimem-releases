@@ -1,0 +1,122 @@
+{
+  "client": {
+    "name": "Demo Town Council",
+    "support": [
+      { "label": "Support", "url": "mailto:support@example.com" }
+    ]
+  },
+  "sections": [
+    { "id": "revenue", "title": "Revenue & Finance" },
+    { "id": "operations", "title": "Operations" },
+    { "id": "communication", "title": "Communication" },
+    { "id": "education", "title": "Education" }
+  ],
+  "apps": [
+    {
+      "id": "billing",
+      "name": "Billing",
+      "section": "revenue",
+      "description": "Rates, water and refuse billing",
+      "detail": "Accounts, meter readings and statements",
+      "url": "https://billing.example.com",
+      "color": "#26d579"
+    },
+    {
+      "id": "receipting",
+      "name": "Receipting",
+      "section": "revenue",
+      "description": "Cashier receipting and cash-ups",
+      "detail": "Receipts, reversals and daily banking",
+      "url": "https://receipting.example.com",
+      "color": "#4c8dff"
+    },
+    {
+      "id": "portal",
+      "name": "Portal",
+      "section": "revenue",
+      "description": "Customer self-service portal",
+      "detail": "Residents view statements and pay online",
+      "url": "https://portal.example.com",
+      "color": "#9b6bff",
+      "android": "https://portal.example.com/download/android"
+    },
+    {
+      "id": "budget",
+      "name": "Budget",
+      "section": "revenue",
+      "description": "Budget preparation and monitoring",
+      "detail": "Votes, allocations and variance reports",
+      "url": "https://budget.example.com",
+      "color": "#f5b82e"
+    },
+    {
+      "id": "procurement",
+      "name": "Procurement",
+      "section": "operations",
+      "description": "Requisitions to purchase orders",
+      "detail": "Quotations, approvals and suppliers",
+      "url": "https://procurement.example.com",
+      "color": "#1fb8a6"
+    },
+    {
+      "id": "supply-chain",
+      "name": "Stores",
+      "section": "operations",
+      "description": "Stores, fuel and acquittals",
+      "detail": "GRVs, issues and stock on hand",
+      "url": "https://stores.example.com",
+      "color": "#ef5b3c"
+    },
+    {
+      "id": "housing",
+      "name": "Housing",
+      "section": "operations",
+      "description": "Housing waiting list and allocations",
+      "detail": "Applicants, stands and lease records",
+      "url": "https://housing.example.com",
+      "color": "#e94e9b"
+    },
+    {
+      "id": "gis",
+      "name": "GIS",
+      "section": "operations",
+      "description": "Property and infrastructure maps",
+      "detail": "Stands, zoning and service layers",
+      "url": "https://plumtree-gis.up.railway.app/login.php?next=%2F",
+      "color": "#38bdf8",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "gis-v",
+        "asset": "olimem-gis",
+        "appName": "Olimem GIS"
+      }
+    },
+    {
+      "id": "bulk-sms",
+      "name": "SMS",
+      "section": "communication",
+      "description": "Bulk SMS to residents",
+      "detail": "Bill reminders, notices and campaigns",
+      "url": "https://sms.example.com",
+      "color": "#a3d93b"
+    },
+    {
+      "id": "school-portal",
+      "name": "Schools",
+      "section": "education",
+      "description": "School management portal",
+      "detail": "Students, fees, attendance and reports",
+      "url": "https://185.182.9.164:7070/",
+      "color": "#f97316",
+      "healthPath": "",
+      "openIn": "browser",
+      "certSha256": "C6:57:96:30:10:72:E2:1C:51:13:C8:64:E6:98:EA:49:70:D4:3B:B1:95:B1:48:59:2E:34:8E:25:28:EA:F6:AB",
+      "desktop": {
+        "repo": "Olimem-Enterprise-Solutions/olimem-releases",
+        "tagPrefix": "schools-v",
+        "asset": "olimem-schools",
+        "appName": "Olimem Schools"
+      }
+    }
+  ]
+}
